@@ -45,6 +45,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
+Plug 'airblade/vim-gitgutter'
 Plug 'ywjno/vim-tomorrow-theme'
 
 call plug#end()

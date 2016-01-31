@@ -9,6 +9,9 @@ set history=50
 set ruler         " show the cursor position all the time
 set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
+set hlsearch      " Highlight all matches after entering search pattern
+set ignorecase    " Case insensitive pattern matching
+set smartcase     " Overrides ignorecase if pattern contains upcase
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 

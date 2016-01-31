@@ -24,5 +24,3 @@
   template = ~/.gitmessage
 [fetch]
   prune = true
-[rebase]
-  autosquash = true

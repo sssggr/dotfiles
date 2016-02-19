@@ -96,6 +96,9 @@ endif
 set background=dark
 colorscheme Tomorrow-Night-Eighties
 
+" Airline
+let g:airline_powerline_fonts = 1
+
 " Make it obvious where 100 characters is
 set textwidth=100
 set colorcolumn=+1

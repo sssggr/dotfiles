@@ -18,8 +18,7 @@
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
-[merge]
-  ff = only
+	editor = /usr/local/bin/vim
 [commit]
   template = ~/.gitmessage
 [fetch]

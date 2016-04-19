@@ -14,3 +14,9 @@ alias s="rspec"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
+
+# Directories
+pro=~/projects
+dot=~/dotfiles
+sc=~/projects/shipcloud
+upcase=~/projects/upcase

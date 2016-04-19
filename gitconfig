@@ -1,6 +1,7 @@
 [user]
   name = Nina Siessegger
   email = n.siessegger@zeromail.org
+  signingkey = D8DB112D
 [init]
   templatedir = ~/.git_template
 [push]

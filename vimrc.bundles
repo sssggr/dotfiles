@@ -25,5 +25,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'ywjno/vim-tomorrow-theme'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'chriskempson/vim-tomorrow-theme'
 
 call plug#end()

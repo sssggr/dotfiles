@@ -2,12 +2,16 @@ My personal dotfiles
 --------------------
 Install
 --------------------
-Clone onto your laptop:
+* Clone onto your laptop:
+`git clone git://github.com/sssggr/dotfiles.git`
 
-``git clone git://github.com/sssggr/dotfiles.git```
+* Install rcm
+`brew install rcm`
+`rcup`
 
-```brew tap thoughtbot/formulae```
+* Install vim-plug:
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
 
-```brew install rcm```
-
-```env RCRC=$HOME/dotfiles/rcrc rcup````
+* Install [chruby](https://github.com/postmodern/chruby)
+* Install zsh & [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)

@@ -3,6 +3,8 @@ call plug#begin('~/.vim/bundle')
 " Define bundles via Github repos
 Plug 'christoomey/vim-run-interactive'
 Plug 'kchmck/vim-coffee-script'
+Plug 'kana/vim-textobj-user' " needed for vim-textobj-rubyblock
+Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'scrooloose/syntastic'

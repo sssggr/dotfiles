@@ -172,3 +172,5 @@ set complete+=kspell
 " Always use vertical diffs
 set diffopt+=vertical
 
+" Enable matchit
+runtime macros/matchit.vim

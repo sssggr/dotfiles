@@ -26,5 +26,6 @@ Plug 'ywjno/vim-tomorrow-theme'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'pangloss/vim-javascript'
 
 call plug#end()

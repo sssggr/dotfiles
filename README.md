@@ -6,8 +6,11 @@ Install
 `git clone git://github.com/sssggr/dotfiles.git`
 
 * Install rcm
+`brew tap thoughtbot/formulaee
 `brew install rcm`
-`rcup`
+
+* Install dotfiles
+`env RCRC=$HOME/dotfiles/rcrc rcup`
 
 * Install vim-plug:
 `curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

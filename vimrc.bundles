@@ -28,5 +28,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'digitaltoad/vim-pug'
 
 call plug#end()

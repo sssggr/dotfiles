@@ -165,6 +165,7 @@ let g:syntastic_eruby_ruby_quiet_messages =
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 "configure syntastic for java
 let g:syntastic_java_checkers = ["javac"]
+let g:syntastic_javascript_checkers=['eslint']
 
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.

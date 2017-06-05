@@ -18,5 +18,3 @@ alias path='echo $PATH | tr -s ":" "\n"'
 # Directories
 pro=~/projects
 dot=~/dotfiles
-sc=~/projects/shipcloud
-upcase=~/projects/upcase

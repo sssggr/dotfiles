@@ -5,6 +5,9 @@ export ZSH=$HOME/.oh-my-zsh
 export VISUAL=vim
 export EDITOR=$VISUAL
 
+ZSH_THEME="robbyrussell"
+source $ZSH/oh-my-zsh.sh
+
 # ensure dotfiles bin directory is loaded first
 export PATH="$HOME/.bin:/usr/local/sbin:$PATH"
 
@@ -14,11 +17,6 @@ fpath=(~/.zsh/completion /usr/local/share/zsh/site-functions $fpath)
 # completion
 autoload -U compinit
 compinit
-
-# load custom executable functions
-for function in ~/.zsh/functions/*; do
-  source $function
-done
 
 # enable colored output from ls, etc
 export CLICOLOR=1

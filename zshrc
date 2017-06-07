@@ -5,8 +5,12 @@ export ZSH=$HOME/.oh-my-zsh
 export VISUAL=vim
 export EDITOR=$VISUAL
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME=""
 source $ZSH/oh-my-zsh.sh
+
+# Initialize the prompt system and choose pure
+autoload -U promptinit; promptinit
+prompt pure
 
 # ensure dotfiles bin directory is loaded first
 export PATH="$HOME/.bin:/usr/local/sbin:$PATH"

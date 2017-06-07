@@ -17,4 +17,4 @@ alias path='echo $PATH | tr -s ":" "\n"'
 
 # Directories
 pro=~/projects
-dot=~/dotfiles
+dot=~/.dotfiles

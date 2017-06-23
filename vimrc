@@ -169,6 +169,9 @@ let g:syntastic_javascript_checkers=['eslint']
 
 " Allow JSX in normal JS files
 let g:jsx_ext_required = 0
+
+" Let Ctrlp ignore some directories
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
 set spellfile=$HOME/.vim-spell-en.utf-8.add

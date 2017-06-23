@@ -176,6 +176,9 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 " Enable auto-complete for HTML files
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
+" configure auto-close tags for the following filenames
+let g:closetag_filenames = "*.html,*.xhtml,*.jsx,*.js"
+
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
 set spellfile=$HOME/.vim-spell-en.utf-8.add

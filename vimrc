@@ -172,6 +172,10 @@ let g:jsx_ext_required = 0
 
 " Let Ctrlp ignore some directories
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+" Enable auto-complete for HTML files
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
 set spellfile=$HOME/.vim-spell-en.utf-8.add

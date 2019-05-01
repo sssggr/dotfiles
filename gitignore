@@ -11,3 +11,4 @@ tmp/**/*
 !tmp/cache/.keep
 .powrc
 vendor/bundle
+.vscode/

@@ -32,5 +32,6 @@ Plug 'mxw/vim-jsx'
 Plug 'digitaltoad/vim-pug'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
+Plug 'posva/vim-vue'
 
 call plug#end()

@@ -8,3 +8,6 @@ if [[ -f /usr/local//share/chruby/chruby.sh ]]; then
 else
   echo "Ain't got no chruby"
 fi
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"

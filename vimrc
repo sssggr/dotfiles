@@ -187,8 +187,5 @@ set spellfile=$HOME/.vim-spell-en.utf-8.add
 " Autocomplete with dictionary words when spell check is on
 set complete+=kspell
 
-" Always use vertical diffs
-set diffopt+=vertical
-
 " Enable matchit
 runtime macros/matchit.vim

@@ -1,6 +1,6 @@
 [user]
-  name = Nina Siessegger
-  email = n.siessegger@zeromail.org
+	name = Nina Siessegger
+	email = n.siessegger@zeromail.org
   signingkey = D8DB112D
 [init]
   templatedir = ~/.git_template
@@ -17,10 +17,16 @@
   pf = push --force-with-lease
   st = status
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/sssggr/.gitignore
   autocrlf = input
 	editor = vim
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 [fetch]
   prune = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

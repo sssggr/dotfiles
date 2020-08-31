@@ -61,3 +61,8 @@ eval "$(pyenv init -)"
 
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/sssggr/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+
+# jenv
+eval "$(jenv init -)"
+export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
+alias jenv_set_java_home='export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"'

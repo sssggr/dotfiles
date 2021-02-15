@@ -69,7 +69,7 @@ eval "function ${cmd}(){ unset -f ${NODE_GLOBALS[*]}; _load_nvm; unset -f _load_
 done
 unset cmd NODE_GLOBALS
 
-export PATH="$PATH:$HOME/.yarn/bin"```
+export PATH="$PATH:$HOME/.yarn/bin"
 
 # Pyenv
 eval "$(pyenv init -)"
@@ -88,3 +88,4 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+

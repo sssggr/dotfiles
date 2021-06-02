@@ -71,9 +71,6 @@ unset cmd NODE_GLOBALS
 
 export PATH="$PATH:$HOME/.yarn/bin"
 
-# Pyenv
-eval "$(pyenv init -)"
-
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/sssggr/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 

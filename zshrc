@@ -57,3 +57,6 @@ source $(brew --prefix nvm)/nvm.sh
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/sssggr/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.3.0
